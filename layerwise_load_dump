@@ -1,0 +1,145 @@
+Start	Duration	CorrId	GrdX	GrdY	GrdZ	BlkX	BlkY	BlkZ	Reg/Trd	StcSMem	DymSMem	Bytes	Throughput	SrcMemKd	DstMemKd	Device	Ctx	GreenCtx	Strm	Name
+1.75335s	1.219 ms	609	-	-	-	-	-	-	-	-	-	64.00 MiB	51.25 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+1.75457s	1.212 ms	613	-	-	-	-	-	-	-	-	-	64.00 MiB	51.56 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+1.91526s	2.344 ms	2595	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+1.95216s	189.632 μs	2613	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+1.9525s	2.998 ms	2624	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+1.9555s	2.345 ms	2634	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+1.95785s	189.761 μs	2641	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+1.95804s	2.999 ms	2650	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+1.96104s	2.341 ms	2664	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+1.96104s	1.388 ms	2712	-	-	-	-	-	-	-	-	-	64.00 MiB	45.00 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+1.96338s	189.728 μs	2671	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+1.96357s	2.998 ms	2680	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+1.96657s	2.342 ms	2690	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+1.96892s	189.697 μs	2697	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+1.96911s	2.998 ms	2706	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+1.97212s	1.339 ms	2717	-	-	-	-	-	-	-	-	-	64.00 MiB	46.63 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.47356s	1.212 ms	2724	-	-	-	-	-	-	-	-	-	64.00 MiB	51.56 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.47477s	1.211 ms	2728	-	-	-	-	-	-	-	-	-	64.00 MiB	51.56 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.47477s	2.339 ms	2741	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.47599s	1.212 ms	2788	-	-	-	-	-	-	-	-	-	64.00 MiB	51.56 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.47711s	190.465 μs	2748	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.47721s	1.213 ms	2853	-	-	-	-	-	-	-	-	-	64.00 MiB	51.50 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.47731s	3.002 ms	2757	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.47842s	1.213 ms	2918	-	-	-	-	-	-	-	-	-	64.00 MiB	51.50 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.47964s	1.212 ms	2983	-	-	-	-	-	-	-	-	-	64.00 MiB	51.50 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.48031s	2.341 ms	2767	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.48086s	1.212 ms	3048	-	-	-	-	-	-	-	-	-	64.00 MiB	51.50 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.48208s	1.212 ms	3113	-	-	-	-	-	-	-	-	-	64.00 MiB	51.56 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.48265s	190.241 μs	2774	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.48284s	3.001 ms	2783	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.48329s	1.212 ms	3178	-	-	-	-	-	-	-	-	-	64.00 MiB	51.50 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.48451s	1.212 ms	3243	-	-	-	-	-	-	-	-	-	64.00 MiB	51.56 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.48573s	1.275 ms	3308	-	-	-	-	-	-	-	-	-	64.00 MiB	49.00 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.48586s	2.341 ms	2801	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.48586s	1.433 ms	2849	-	-	-	-	-	-	-	-	-	64.00 MiB	43.63 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.48701s	1.226 ms	3373	-	-	-	-	-	-	-	-	-	64.00 MiB	50.94 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.4882s	190.049 μs	2808	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.48824s	1.212 ms	3438	-	-	-	-	-	-	-	-	-	64.00 MiB	51.50 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.4884s	3.000 ms	2817	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.48946s	1.212 ms	3503	-	-	-	-	-	-	-	-	-	64.00 MiB	51.50 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.49068s	1.212 ms	3568	-	-	-	-	-	-	-	-	-	64.00 MiB	51.56 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.4914s	2.341 ms	2827	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.4919s	1.212 ms	3633	-	-	-	-	-	-	-	-	-	64.00 MiB	51.56 GiB/s	Pinned	Device	NVIDIA H20 (0)	1	-	16	[CUDA memcpy Host-to-Device]
+2.49374s	189.857 μs	2834	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.49393s	2.997 ms	2843	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.49694s	2.341 ms	2866	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.49694s	1.345 ms	2914	-	-	-	-	-	-	-	-	-	64.00 MiB	46.44 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.49928s	189.569 μs	2873	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.49947s	2.999 ms	2882	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.50247s	2.340 ms	2892	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.50481s	189.632 μs	2899	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.505s	2.997 ms	2908	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.50801s	2.340 ms	2931	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.50801s	1.333 ms	2979	-	-	-	-	-	-	-	-	-	64.00 MiB	46.88 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.51035s	189.664 μs	2938	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.51054s	2.997 ms	2947	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.51354s	2.341 ms	2957	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.51588s	189.505 μs	2964	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.51607s	2.998 ms	2973	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.51907s	2.340 ms	2996	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.51908s	1.341 ms	3044	-	-	-	-	-	-	-	-	-	64.00 MiB	46.56 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.52141s	189.569 μs	3003	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.52161s	2.997 ms	3012	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.5246s	2.340 ms	3022	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.52695s	189.505 μs	3029	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.52714s	2.997 ms	3038	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.53014s	2.340 ms	3061	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.53014s	1.333 ms	3109	-	-	-	-	-	-	-	-	-	64.00 MiB	46.88 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.53248s	189.633 μs	3068	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.53267s	2.998 ms	3077	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.53567s	2.341 ms	3087	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.53802s	189.760 μs	3094	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.53821s	2.998 ms	3103	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.54121s	2.340 ms	3126	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.54121s	1.367 ms	3174	-	-	-	-	-	-	-	-	-	64.00 MiB	45.69 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.54355s	189.761 μs	3133	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.54374s	2.997 ms	3142	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.54674s	2.340 ms	3152	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.54908s	189.537 μs	3159	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.54927s	2.998 ms	3168	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.55228s	2.340 ms	3191	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.55228s	1.399 ms	3239	-	-	-	-	-	-	-	-	-	64.00 MiB	44.63 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.55462s	189.857 μs	3198	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.55481s	2.997 ms	3207	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.55781s	2.341 ms	3217	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.56015s	189.697 μs	3224	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.56034s	2.998 ms	3233	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.56334s	2.340 ms	3256	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.56335s	1.396 ms	3304	-	-	-	-	-	-	-	-	-	64.00 MiB	44.75 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.56568s	189.825 μs	3263	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.56588s	2.999 ms	3272	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.56888s	2.340 ms	3282	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.57122s	189.280 μs	3289	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.57141s	2.998 ms	3298	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.57441s	2.341 ms	3321	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.57441s	1.358 ms	3369	-	-	-	-	-	-	-	-	-	64.00 MiB	46.00 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.57675s	190.081 μs	3328	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.57695s	2.997 ms	3337	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.57995s	2.340 ms	3347	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.58229s	189.729 μs	3354	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.58248s	2.998 ms	3363	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.58548s	1.352 ms	3434	-	-	-	-	-	-	-	-	-	64.00 MiB	46.19 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.58548s	2.341 ms	3386	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.58782s	189.377 μs	3393	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.58801s	2.998 ms	3402	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.59101s	2.341 ms	3412	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.59336s	189.345 μs	3419	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.59355s	3.000 ms	3428	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.59655s	2.340 ms	3451	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.59656s	1.343 ms	3499	-	-	-	-	-	-	-	-	-	64.00 MiB	46.50 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.59889s	189.888 μs	3458	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.59909s	2.999 ms	3467	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.60209s	2.341 ms	3477	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.60443s	189.920 μs	3484	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.60462s	2.999 ms	3493	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.60762s	2.341 ms	3516	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.60763s	1.352 ms	3564	-	-	-	-	-	-	-	-	-	64.00 MiB	46.19 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.60997s	189.281 μs	3523	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.61016s	2.998 ms	3532	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.61316s	2.341 ms	3542	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.6155s	189.761 μs	3549	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.61569s	2.998 ms	3558	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.61869s	2.340 ms	3581	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.6187s	1.345 ms	3629	-	-	-	-	-	-	-	-	-	64.00 MiB	46.44 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.62104s	190.049 μs	3588	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.62123s	2.999 ms	3597	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.62423s	2.341 ms	3607	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.62657s	189.985 μs	3614	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.62676s	2.998 ms	3623	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.62976s	2.341 ms	3646	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.62976s	1.348 ms	3694	-	-	-	-	-	-	-	-	-	64.00 MiB	46.31 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.6321s	189.568 μs	3653	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.6323s	2.998 ms	3662	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.63529s	2.341 ms	3672	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.63764s	189.857 μs	3679	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.63783s	2.998 ms	3688	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.64083s	2.341 ms	3707	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.64084s	1.349 ms	3755	-	-	-	-	-	-	-	-	-	64.00 MiB	46.31 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
+2.64318s	189.729 μs	3714	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.64337s	2.998 ms	3723	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.64637s	2.340 ms	3733	128	16	1	128	1	1	255	0 B	33.00 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x128x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.64871s	189.857 μs	3740	262144	1	1	128	1	1	22	0 B	0 B	-	-	-	-	NVIDIA H20 (0)	1	-	17	cupy_tanh__float32_float32
+2.6489s	2.998 ms	3749	128	32	1	128	1	1	118	0 B	15.38 KiB	-	-	-	-	NVIDIA H20 (0)	1	-	17	sm80_xmma_gemm_f32f32_f32f32_f32_nn_n_tilesize128x32x8_stage3_warpsize2x2x1_ffma_aligna4_alignc4_execute_kernel__5x_cublas
+2.6519s	1.386 ms	3760	-	-	-	-	-	-	-	-	-	64.00 MiB	45.06 GiB/s	Device	Pinned	NVIDIA H20 (0)	1	-	18	[CUDA memcpy Device-to-Host]
