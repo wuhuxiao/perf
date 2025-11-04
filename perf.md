@@ -1,15 +1,18 @@
 # H20 performance baseline
 
-Chip Name	GH100
-SM Count	78
-L2 Cache Size	60.00 MiB
-Memory Bandwidth	3,746.51 GiB/s
-Memory Size	95.00 GiB
-Core Clock	1.98 GHz
-Bus Location	0000:98:00.0
-UUID	d6148c49-d87e-a63f-0dac-b83c3a228349
-GSP firmware version	535.183.01
-Video accelerator tracing	Not supported: GSP enabled
+| 项目 | 数值 |
+|------|------|
+| **Chip Name** | GH100 |
+| **SM Count** | 78 |
+| **L2 Cache Size** | 60.00 MiB |
+| **Memory Bandwidth** | 3,746.51 GiB/s |
+| **Memory Size** | 95.00 GiB |
+| **Core Clock** | 1.98 GHz |
+| **Bus Location** | 0000:98:00.0 |
+| **UUID** | d6148c49-d87e-a63f-0dac-b83c3a228349 |
+| **GSP firmware version** | 535.183.01 |
+| **Video accelerator tracing** | Not supported: GSP enabled |
+
 
 CUDA 的数据传输是通过 GPU 的 **DMA 引擎** 实现的：
 
@@ -29,7 +32,7 @@ CUDA 的数据传输是通过 GPU 的 **DMA 引擎** 实现的：
 - 写入路径需经过 write combining 缓冲；
 - 顺序写入路径 latency 更高、带宽利用率更差。
 
-## 测试环境和脚本
+## 测试脚本
 ```bash
 nsys profile --trace=cuda,nvtx,osrt --cuda-memory-usage=true --sample=none --trace-fork-before-exec=true \ 
 --cuda-graph-trace=node --force-overwrite=true --output=/home/externals/wangwenxin21/perf/base python store_load_dump.py
