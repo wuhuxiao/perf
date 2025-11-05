@@ -13,8 +13,8 @@ HEAD_SIZE = 128
 HIDDEN_SIZE = NUM_BLOCK * BLOCK_SIZE * NUM_HEAD * HEAD_SIZE # 模拟每层KV大小（更大一些）
 
 # 是layerwise 还是 blockwise
-# TRANSFER_SIZE = NUM_BLOCK * BLOCK_SIZE * NUM_HEAD * HEAD_SIZE * np.float32().nbytes # 模拟每次load 和dump KV大小
-TRANSFER_SIZE = BLOCK_SIZE * NUM_HEAD * HEAD_SIZE * np.float32().nbytes # 模拟每次load 和dump KV大小
+# TRANSFER_IO_SIZE = NUM_BLOCK * BLOCK_SIZE * NUM_HEAD * HEAD_SIZE * np.float32().nbytes # 模拟每次load 和dump KV大小
+TRANSFER_IO_SIZE = BLOCK_SIZE * NUM_HEAD * HEAD_SIZE * np.float32().nbytes # 模拟每次load 和dump KV大小
 # 加大 compute、load、dump 的耗时
 LOAD_ITER = 1
 COMPUTE_ITER = 2
@@ -65,15 +65,15 @@ def load_kv(layer_id):
         host_ptr = h_ptr.ptr
         device_ptr = d_ptr.data.ptr
         for _ in range(LOAD_ITER):
-            for _ in range(d_ptr.nbytes//TRANSFER_SIZE):
+            for _ in range(d_ptr.nbytes//TRANSFER_IO_SIZE):
                 # 模拟异步 H2D 拷贝
                 cp.cuda.runtime.memcpyAsync(
-                    device_ptr, host_ptr, TRANSFER_SIZE,
+                    device_ptr, host_ptr, TRANSFER_IO_SIZE,
                     cp.cuda.runtime.memcpyHostToDevice,
                     stream_load.ptr
                 )
-                device_ptr += TRANSFER_SIZE
-                host_ptr += TRANSFER_SIZE
+                device_ptr += TRANSFER_IO_SIZE
+                host_ptr += TRANSFER_IO_SIZE
 
         events_load_done[layer_id].record(stream_load)
         print(f"[LOAD] layer {layer_id} enqueued (H2D + load op)")
@@ -97,15 +97,15 @@ def dump_kv(layer_id):
         host_ptr = h_ptr.ptr
         device_ptr = d_ptr.data.ptr
         for _ in range(DUMP_ITER):
-            for _ in range(d_ptr.nbytes//TRANSFER_SIZE):
+            for _ in range(d_ptr.nbytes//TRANSFER_IO_SIZE):
                 # 模拟 D2H 拷贝
                 cp.cuda.runtime.memcpyAsync(
-                    h_ptr.ptr, device_ptr, TRANSFER_SIZE,
+                    h_ptr.ptr, device_ptr, TRANSFER_IO_SIZE,
                     cp.cuda.runtime.memcpyDeviceToHost,
                     stream_dump.ptr
                 )
-                device_ptr += TRANSFER_SIZE
-                host_ptr += TRANSFER_SIZE
+                device_ptr += TRANSFER_IO_SIZE
+                host_ptr += TRANSFER_IO_SIZE
         events_dump_done[layer_id].record(stream_dump)
         print(f"[DUMP] layer {layer_id} enqueued (D2H + dump op)")
 

@@ -40,16 +40,16 @@ nsys profile --trace=cuda,nvtx,osrt --cuda-memory-usage=true --sample=none --tra
 
 ## 实测性能 
 
-| 方向 | 数据包大小 64MB（128 * 128 * 8 * 128 * 4） | 带宽                    | 时延    |
-|------|-------------------------------------|-----------------------|---------|
-| H2D  | layer wise一次load 连续的128个KV BLOCK    | 51.34 GiB/s | 1216.875 μs | 
-| D2H  | layer wise一次dump 连续的128个KV BLOCK    | 45.90 GiB/s | 1361.250 μs |
+| 方向 | 数据包大小 64 MiB（128 * 128 * 8 * 128 * 4） | 带宽                    | 单个IO的时延     |
+|------|---------------------------------------|-----------------------|-------------|
+| H2D  | layer wise一次load 连续的128个KV BLOCK      | 51.34 GiB/s | 1216.875 μs | 
+| D2H  | layer wise一次dump 连续的128个KV BLOCK      | 45.90 GiB/s | 1361.250 μs |
 ![img_1.png](img_1.png) 
 
 
-| 方向 | 数据包大小 0.5 MB（1 * 128 * 8 * 128 * 4） | 带宽                    | 时延    |
-|------|-------------------------------------|-----------------------|---------|
-| H2D  | layer wise 128次load 1个KV BLOCK      | 38.48 GiB/s | 12.764 μs | 
-| D2H  | layer wise 128次dump 1个KV BLOCK      | 37.07 GiB/s | 13.252 μs |
+| 方向 | 数据包大小 0.5 MiB（1 * 128 * 8 * 128 * 4） | 带宽                    | 单个IO的时延    |
+|------|--------------------------------------|-----------------------|---------|
+| H2D  | block wise 128次load 1个KV BLOCK       | 38.48 GiB/s | 12.764 μs | 
+| D2H  | block wise 128次dump 1个KV BLOCK       | 37.07 GiB/s | 13.252 μs |
 ![img.png](img.png)
 blockwise的load和dump对cpu线程的压力有点大
